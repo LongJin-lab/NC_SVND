@@ -1,0 +1,18 @@
+load('singal_S12_R1.mat');
+T1 = cell2mat(samples);
+load('singal_S12_R2.mat');
+T2 = cell2mat(samples);
+load('singal_S12_R3.mat');
+T3 = cell2mat(samples);
+load('singal_S12_R4.mat');
+T4 = cell2mat(samples);
+load('singal_S12_R5.mat');
+T5 = cell2mat(samples);
+load('singal_S12_R6.mat');
+T6 = cell2mat(samples);
+load('singal_S12_R7.mat');
+T7 = cell2mat(samples);
+load('singal_S12_R8.mat');
+T8 = cell2mat(samples);
+T = [T1;T2;T3;T4;T5;T6;T7;T8];
+save('testT.mat','T');
